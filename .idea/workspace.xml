@@ -4,45 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e6c412d-47d3-404a-8008-55987c27a272" name="Changes" comment="Работает 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/buysell/controllers/BasketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/buysell/controllers/UserLocationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/buysell/models/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/buysell/models/UserLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/buysell/repositories/BasketRepozsitory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/buysell/repositories/UserLocationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/buysell/services/BasketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/buysell/services/UserLocationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/basket.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/location.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userLocation-info.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/268ef56b-1702-4ff3-8b0f-0e9dbac31507.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/268ef56b-1702-4ff3-8b0f-0e9dbac31507.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/487ba7a2-07ca-4d3d-955c-48ba64eec4d6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/487ba7a2-07ca-4d3d-955c-48ba64eec4d6/storage_v2/_src_/database/product_db.zsl8aA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/487ba7a2-07ca-4d3d-955c-48ba64eec4d6/storage_v2/_src_/database/product_db.zsl8aA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/487ba7a2-07ca-4d3d-955c-48ba64eec4d6/storage_v2/_src_/database/product_db.zsl8aA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/487ba7a2-07ca-4d3d-955c-48ba64eec4d6/storage_v2/_src_/database/product_db.zsl8aA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f59652f2-5a7e-4c00-a0ae-8e286848e5f7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f59652f2-5a7e-4c00-a0ae-8e286848e5f7/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f59652f2-5a7e-4c00-a0ae-8e286848e5f7/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f59652f2-5a7e-4c00-a0ae-8e286848e5f7/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f59652f2-5a7e-4c00-a0ae-8e286848e5f7/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f59652f2-5a7e-4c00-a0ae-8e286848e5f7/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+    <list default="true" id="6e6c412d-47d3-404a-8008-55987c27a272" name="Changes" comment="Неработает удаление из базы данныx, плохо реализованно добавление в корзину , изпользуется постгресс">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/buysell/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/buysell/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/createProduct.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createProduct.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-info.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-info.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/products.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/products.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/buysell/controllers/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/buysell/services/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/createProduct.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/createProduct.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-info.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product-info.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/products.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/products.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/registration.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/BuysellApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/BuysellApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/controllers/BasketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/controllers/BasketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/controllers/UserCotroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/controllers/UserCotroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/controllers/UserLocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/controllers/UserLocationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/models/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/models/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/models/UserLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/models/UserLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/models/enums/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/models/enums/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/repositories/BasketRepozsitory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/repositories/BasketRepozsitory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/repositories/UserLocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/repositories/UserLocationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/services/BasketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/services/BasketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/services/CustomeUserDetailsServise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/services/CustomeUserDetailsServise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/services/UserLocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/services/UserLocationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/magazin/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/buysell/BuysellApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/magazin/BuysellApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/BuysellApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/configuration/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/controllers/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/controllers/UserCotroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/models/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/models/enums/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/repositories/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/services/CustomeUserDetailsServise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/services/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/buysell/BuysellApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +57,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -123,9 +127,22 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MAGAZIN" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="MAGAZIN" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BuysellApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="buysell" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.buysell.BuysellApplication" />
+      <module name="MAGAZIN" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.magazin.BuysellApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,7 +159,7 @@
       <workItem from="1653756144285" duration="19863000" />
       <workItem from="1653829901422" duration="9805000" />
       <workItem from="1653840180684" duration="725000" />
-      <workItem from="1653841234550" duration="1851000" />
+      <workItem from="1653841234550" duration="2251000" />
     </task>
     <task id="LOCAL-00001" summary="wokr 1">
       <created>1653812116836</created>
@@ -165,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653814005851</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Неработает удаление из базы данныx, плохо реализованно добавление в корзину , изпользуется постгресс">
+      <created>1653855127727</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653855127727</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +209,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wokr 1" />
     <MESSAGE value="Работает 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Работает 2" />
+    <MESSAGE value="Неработает удаление из базы данныx, плохо реализованно добавление в корзину , изпользуется постгресс" />
+    <option name="LAST_COMMIT_MESSAGE" value="Неработает удаление из базы данныx, плохо реализованно добавление в корзину , изпользуется постгресс" />
   </component>
 </project>
