@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>BUYSELL</title>
+    <title>MAGAZINE</title>
 </head>
 <body>
-<h1>BUYSELL</h1><hr>
+<h1>MAGAZINE</h1><hr>
 <h4>Подробная информация о товаре</h4>
 <b>Вид товара: </b>${product.title}<br>
 <b>Название товара: </b>${product.name}<br>
@@ -12,6 +12,6 @@
 <b>Цена: </b>${product.price}<br>
 <b>Магазин: </b>${product.magazine}<br>
 <hr>
-<h1><a href="/">Обратно</a></h1><hr>
+<h1><a href="/">Главная</a></h1><hr>
 </body>
 </html>

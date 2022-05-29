@@ -14,6 +14,7 @@
     Магазин: <input type="text" name="magazine"/><br><br>
     <input type="hidden" name="_csrf" value="${_csrf.token}">
     <input type="submit" value="Добавить товар"/>
+    <h1><a href="/">Главная</a></h1><hr>
 </form>
 </body>
 </html>
