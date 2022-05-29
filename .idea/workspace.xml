@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e6c412d-47d3-404a-8008-55987c27a272" name="Changes" comment="" />
+    <list default="true" id="6e6c412d-47d3-404a-8008-55987c27a272" name="Changes" comment="wokr 1">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/createProduct.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/buysell/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/buysell/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/buysell/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/buysell/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-info.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-info.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/products.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/products.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/buysell/configuration/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/buysell/controllers/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/buysell/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/buysell/services/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/products.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/products.ftlh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,8 +102,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653756143125</updated>
-      <workItem from="1653756144285" duration="17523000" />
+      <workItem from="1653756144285" duration="18707000" />
     </task>
+    <task id="LOCAL-00001" summary="wokr 1">
+      <created>1653812116836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653812116836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +127,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wokr 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="wokr 1" />
   </component>
 </project>

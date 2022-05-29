@@ -24,9 +24,11 @@
     Название товара: <input type="text" name="name"/><br><br>
     Описание объявления: <input type="text" name="description"/><br><br>
     Цена: <input type="number" name="price"/><br><br>
-    Магазин: <input type="text" name="city"/><br><br>
+    Магазин: <input type="text" name="magazine"/><br><br>
     <input type="hidden" name="_csrf" value="${_csrf.token}">
     <input type="submit" value="Добавить товар"/>
+
+    <h1>magazine -- <a href="/product/createProduct">Войти</a></h1><hr>
 </form>
 </body>
 </html>
